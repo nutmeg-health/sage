@@ -13,7 +13,7 @@ export default function About() {
             <div className="bg-green-50 p-6 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4">How It Works</h3>
               <p className="text-gray-700">
-                We help you select different recipes each week - from breakfast, lunch and dinner to snacks and drinks - and create your grocery list for you, so you don't have to remember what to add.
+                We help you select different recipes each week - from breakfast, lunch and dinner to snacks and drinks - and create your grocery list for you, so you dont have to remember what to add.
               </p>
             </div>
 
