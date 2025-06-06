@@ -12,18 +12,18 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "typescript": "latest",
-    "tailwindcss": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest"
+    "next": "latest",
+    "postcss": "latest",
+    "react": "^19.1.0",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "15.3.0",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next": "15.3.0"
   }
 }
