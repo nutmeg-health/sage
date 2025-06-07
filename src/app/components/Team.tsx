@@ -40,7 +40,7 @@ export default function Team() {
 
   return (
     <div className="container mx-auto px-6 py-12">
-      <h2 className="text-4xl font-bold mb-8 text-sage-800 text-center">Our Team</h2>
+      <h2 className="text-4xl font-bold text-orange-950 mb-8 text-sage-800 text-center">Our Team</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
         {teamMembers.map((member) => (
           <div 
@@ -62,15 +62,15 @@ export default function Team() {
                       className="object-cover"
                     />
                   </div>
-                  <h3 className="text-2xl font-semibold mb-2 text-center text-sage-800">{member.name}</h3>
-                  <p className="text-sage-600 text-center text-lg">{member.position}</p>
+                  <h3 className="text-2xl text-orange-950 font-semibold mb-2 text-center text-sage-800">{member.name}</h3>
+                  <p className="text-sage-600 text-orange-950 text-center text-lg">{member.position}</p>
                 </div>
               </div>
               
               {/* Back of card */}
               <div className="absolute w-full h-full backface-hidden rotate-y-180">
                 <div className="bg-sage-100 p-8 rounded-2xl shadow-lg h-full flex items-center justify-center border border-sage-200">
-                  <p className="text-sage-700 text-lg leading-relaxed">{member.description}</p>
+                  <p className="text-sage-700 text-orange-950 text-lg leading-relaxed">{member.description}</p>
                 </div>
               </div>
             </div>

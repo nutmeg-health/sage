@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Download() {
   return (
     <div className="container mx-auto px-6 py-16">
-      <div className="bg-nutmeg-100 rounded-2xl shadow-lg max-w-6xl mx-auto overflow-hidden">
+      <div className="bg-nutmeg-100 bg-nutmeg-background rounded-2xl shadow-lg max-w-6xl mx-auto overflow-hidden">
         <div className="grid md:grid-cols-2 items-center gap-8 p-8">
           {/* Left side - Text and buttons */}
           <div className="space-y-6">
@@ -69,7 +69,7 @@ export default function Download() {
                 <div className="relative w-full h-full overflow-hidden rounded-[2.5rem]">
                   <Image
                     src="/app-screenshot-1.png"
-                    alt="Nutmeg App Screenshot"
+                    alt="Nutmeg App Screenshot 1"
                     fill
                     className="object-cover"
                   />
@@ -83,7 +83,7 @@ export default function Download() {
                 <div className="relative w-full h-full overflow-hidden rounded-[2.5rem]">
                   <Image
                     src="/app-screenshot-2.png"
-                    alt="Nutmeg App Screenshot"
+                    alt="Nutmeg App Screenshot 2"
                     fill
                     className="object-cover"
                   />

@@ -28,6 +28,12 @@ export default function Header() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             <button 
+              onClick={() => scrollToSection('download')} 
+              className="bg-nutmeg-primary-accent text-white px-4 py-2 rounded-lg hover:bg-nutmeg-highlight transition-colors"
+            >
+              Download
+            </button>
+            <button 
               onClick={() => scrollToSection('about')} 
               className="text-nutmeg-coffee hover:text-nutmeg-primary-accent transition-colors"
             >
@@ -44,12 +50,6 @@ export default function Header() {
               className="text-nutmeg-coffee hover:text-nutmeg-primary-accent transition-colors"
             >
               Contact
-            </button>
-            <button 
-              onClick={() => scrollToSection('download')} 
-              className="bg-nutmeg-primary-accent text-white px-4 py-2 rounded-lg hover:bg-nutmeg-highlight transition-colors"
-            >
-              Download
             </button>
           </div>
 

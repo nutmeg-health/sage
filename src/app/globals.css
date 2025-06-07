@@ -40,3 +40,11 @@ body {
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
+
+.bg-nutmeg-background {
+  background-color: var(--background);
+}
+
+.text-nutmeg-coffee {
+  color: var(--foreground);
+}
