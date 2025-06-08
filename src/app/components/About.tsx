@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function About() {
   return (
     <div className="container mx-auto px-6 py-12">
@@ -27,9 +29,10 @@ export default function About() {
         </div>
 
         <div className="relative h-[400px]">
-          <img
+          <Image
             src="/grocery-planning.jpg" // You'll need to add this image to your public folder
             alt="Grocery planning and recipe selection"
+            fill
             className="rounded-lg shadow-xl object-cover w-full h-full"
           />
         </div>

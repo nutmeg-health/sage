@@ -6,7 +6,10 @@ export default function Contact() {
         <div>
           <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
           <p className="text-sage-700 text-lg leading-relaxed">
-            If you have any questions or feedback, please don't hesitate to contact us.
+            If you have any questions or feedback, please don&#39;t hesitate to contact us.
+          </p>
+          <p className="text-sage-700 text-lg leading-relaxed">
+            Email: <a href="mailto:hello@nutmeghealth.com">nutmeghealth@gmail.com</a>
           </p>
         </div>
         <div>
